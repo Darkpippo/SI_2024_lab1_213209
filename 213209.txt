@@ -1,0 +1,44 @@
+git init
+git remote add origin https://github.com/Darkpippo/SI_2024_lab1_213209.git
+git remote -v (проверуваме URL)
+
+notepad README.md
+git add README.md
+git status
+git commit -m "Initial commit"
+git add SILab1Main.java SILab1_1.java SILab1_2.java
+git status
+git commit -m "Add starter code"
+git push --set-upstream origin master 
+git checkout -b bug1 master (nova granka bug1 od master)
+git checkout -b bug2 master (nova granka bug2 od master)
+git checkout bug1
+git add SI_Lab1_1.java
+git status
+git commit -m "Fix wrong condition in filterOddLengthStrings"
+git checkout bug2
+git add SILab1_2.java
+git status
+git commit -m "Fix wrong condition in makeBigStringFrom
+git checkout bug1
+git add SILab1Main.java
+git commit -m "Call method filterOddLengthStrings in main class"
+git checkout bug2
+git add SILab1Main.java
+git commit "Call method makeBigStringFrom in main class"
+git push origin bug1
+git push origin bug2
+git checkout master
+git merge bug1
+git push origin --all
+git checkout bug2
+git rebase master
+git rebase --continue (Избришав конфликтни линии)
+git checkout master
+git merge bug2 (Fast-forward)
+git push origin master
+git push origin --all --force
+git log > logs.txt
+git commit -m "Final commit" (напишано тука пред да е извршено)
+
+

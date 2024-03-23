@@ -1,0 +1,35 @@
+commit ad9c89a2ca0c892ed802647df7e06433d112c790
+Author: Aleksandar Panovski <apano77@outlook.com>
+Date:   Sat Mar 23 12:05:31 2024 +0100
+
+    Call method makeBigStringFrom in main class
+
+commit 731eef4ab81a892010f32dbfdaa110363645f5a1
+Author: Aleksandar Panovski <apano77@outlook.com>
+Date:   Sat Mar 23 11:53:39 2024 +0100
+
+    Fix wrong condition in makeBigStringFrom
+
+commit f931f8f8814b13ad8e44f8454e35a86fa9e155bd
+Author: Aleksandar Panovski <apano77@outlook.com>
+Date:   Sat Mar 23 12:03:48 2024 +0100
+
+    Call method filterOddLengthStrings in main class
+
+commit d125b700fef2d4f018c32233b3a259019f3e00a8
+Author: Aleksandar Panovski <apano77@outlook.com>
+Date:   Sat Mar 23 11:52:04 2024 +0100
+
+    Fix wrong condition in filterOddLengthString
+
+commit 851f2f1b27280fd68aead5037915f8895722490a
+Author: Aleksandar Panovski <apano77@outlook.com>
+Date:   Sat Mar 23 11:45:21 2024 +0100
+
+    Add starter code
+
+commit d880eea2891d169251e59aae02de2f5bc15cce56
+Author: Aleksandar Panovski <apano77@outlook.com>
+Date:   Sat Mar 23 11:41:53 2024 +0100
+
+    Initial commit
